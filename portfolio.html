@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pyae Kyaw | Ecommerce Supervisor Portfolio</title>
+
+    <!-- Google Analytics (Replace G-XXXXXXXXXX with your Measurement ID) -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <!-- Navigation with Dark Mode Toggle -->
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <div class="logo-circle">PK</div>
+          <span>Portfolio</span>
+        </a>
+
+        <div class="nav-right">
+          <div class="nav-links">
+            <a href="#skills"><i class="fas fa-chart-line"></i> Skills</a>
+            <a href="#education"
+              ><i class="fas fa-graduation-cap"></i> Education</a
+            >
+
+            <a href="#projects"><i class="fas fa-briefcase"></i> Projects</a>
+            <a href="#certification"
+              ><i class="fas fa-certificate"></i> Certification</a
+            >
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </div>
+
+          <button
+            class="dark-mode-toggle"
+            id="darkModeToggle"
+            aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section with Download CV -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Content Side -->
+          <div class="hero-content">
+            <h1>Pyae Kyaw</h1>
+            <h2 class="title">
+              Ecommerce Supervisor & Digital Marketing Strategist
+            </h2>
+            <p class="intro">
+              Ecommerce Supervisor with 3 years of experience in successfully
+              launching and managing integrated online-offline marketing
+              campaigns. Skilled in end-to-end platform operations, data-driven
+              sales optimization, and strategic merchandising.
+            </p>
+
+            <!-- Achievement Badges -->
+            <div class="achievement-badges">
+              <div class="badge">
+                <span class="badge-number">89%</span>
+                <span class="badge-text">Revenue Growth</span>
+              </div>
+              <div class="badge">
+                <span class="badge-number">3+</span>
+                <span class="badge-text">Years Experience</span>
+              </div>
+              <div class="badge">
+                <span class="badge-number">8+</span>
+                <span class="badge-text">Campaigns Led</span>
+              </div>
+            </div>
+
+            <!-- CTA Buttons with Download CV -->
+            <div class="cta-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-briefcase"></i> View My Work
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i> Contact Me
+              </a>
+              <a href="cv.pdf" download class="btn btn-download">
+                <i class="fas fa-download"></i> Download CV
+              </a>
+            </div>
+          </div>
+
+          <!-- Photo/Avatar Side -->
+          <div class="hero-photo">
+            <div class="avatar-placeholder">
+              <!-- Add your photo as profile.jpg in the same folder -->
+              <div class="profile-photo-bg"></div>
+              <div class="avatar-initials">PK</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Professional <span>Skills</span></h2>
+        <div class="skills-categories">
+          <div class="category-card">
+            <h3>Strategic Planning</h3>
+            <div class="skill-item">
+              <i class="fas fa-chart-line"></i>
+              <span>Ecommerce Platform Management</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-bullseye"></i>
+              <span>Campaign Strategy (Online/Offline)</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-lightbulb"></i>
+              <span>Problem Solving</span>
+            </div>
+          </div>
+
+          <div class="category-card">
+            <h3>Technical Execution</h3>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>Data Analysis & Reporting</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-paint-brush"></i>
+              <span>Photoshop (Intermediate)</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-robot"></i>
+              <span>AI Tools & Prompt Engineering</span>
+            </div>
+          </div>
+
+          <div class="category-card">
+            <h3>Leadership & Development</h3>
+            <div class="skill-item">
+              <i class="fas fa-users"></i>
+              <span>Team Leadership & Supervision</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-bolt"></i>
+              <span>Learning Agility</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-project-diagram"></i>
+              <span>Process Optimization</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <h2>Educational <span>Background</span></h2>
+        <div class="education-card">
+          <div class="edu-header">
+            <div class="edu-icon">
+              <i class="fas fa-university"></i>
+            </div>
+            <div class="edu-title">
+              <h3>Bachelor of Business Administration (BBA)</h3>
+              <p class="edu-university">Meiktila University of Economics</p>
+            </div>
+            <div class="edu-year">2017 - Present</div>
+          </div>
+
+          <div class="edu-details">
+            <div class="edu-status">
+              <span class="status-badge status-current"
+                >Currently Enrolled</span
+              >
+              <span class="status-badge status-distance"
+                >Distance Learning</span
+              >
+            </div>
+
+            <div class="edu-timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h4>On-Campus Studies</h4>
+                  <p class="timeline-date">2017 - 2019</p>
+                  <p class="timeline-desc">
+                    Completed foundational business administration courses
+                    through traditional on-campus education.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h4>Academic Pause</h4>
+                  <p class="timeline-date">2020 - 2024</p>
+                  <p class="timeline-desc">
+                    Temporary academic break due to COVID-19 pandemic and
+                    related educational disruptions.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot active-dot"></div>
+                <div class="timeline-content">
+                  <h4>Distance Learning Program</h4>
+                  <p class="timeline-date">2025 - Present</p>
+                  <p class="timeline-desc">
+                    Currently continuing studies through distance learning
+                    program while gaining professional experience in ecommerce
+                    and digital marketing.
+                  </p>
+                  <div class="current-status">
+                    <i class="fas fa-sync-alt"></i>
+                    <span>Expected Completion: 2026</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="edu-focus">
+              <h4>Key Areas of Study:</h4>
+              <div class="focus-items">
+                <span class="focus-item">Business Management</span>
+                <span class="focus-item">Marketing Strategy</span>
+                <span class="focus-item">Financial Analysis</span>
+                <span class="focus-item">Organizational Behavior</span>
+                <span class="focus-item">E-commerce Principles</span>
+                <span class="focus-item">Digital Marketing</span>
+                <span class="focus-item">Strategic Planning</span>
+                <span class="focus-item">Business Ethics</span>
+              </div>
+            </div>
+
+            <div class="edu-note">
+              <i class="fas fa-lightbulb"></i>
+              <p>
+                Combining academic knowledge with 3+ years of practical
+                ecommerce experience to bridge theory with real-world
+                applications.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Course -->
+    <div class="upcoming-course">
+      <div class="upcoming-badge">
+        <i class="fas fa-calendar-alt"></i>
+        <span>Starts Soon</span>
+      </div>
+      <div class="upcoming-content">
+        <h4>Certificate in Applied Economics for Business (CAEB)</h4>
+        <p class="upcoming-institution">Yangon University of Economics</p>
+
+        <div class="course-timeline">
+          <div class="timeline-item">
+            <i class="far fa-calendar-check"></i>
+            <div>
+              <strong>Duration:</strong> 3 Months (January - March 2026)
+            </div>
+          </div>
+          <div class="timeline-item">
+            <i class="far fa-clock"></i>
+            <div><strong>Start Date:</strong> Upcoming 5 Days</div>
+          </div>
+          <div class="timeline-item">
+            <i class="fas fa-bullseye"></i>
+            <div><strong>Status:</strong> Enrollment Confirmed</div>
+          </div>
+        </div>
+
+        <div class="course-objective">
+          <h5>Program Objective:</h5>
+          <p>
+            This certificate program focuses on applying economic principles to
+            real-world business scenarios, enhancing analytical decision-making
+            capabilities for ecommerce and digital marketing strategies.
+          </p>
+        </div>
+
+        <div class="anticipated-skills">
+          <h5>Expected Learning Outcomes:</h5>
+          <div class="skills-list">
+            <span class="skill-tag">Economic Analysis</span>
+            <span class="skill-tag">Business Forecasting</span>
+            <span class="skill-tag">Pricing Strategies</span>
+            <span class="skill-tag">Market Evaluation</span>
+            <span class="skill-tag">Data-Driven Decisions</span>
+          </div>
+        </div>
+
+        <div class="relevance-note">
+          <i class="fas fa-lightbulb"></i>
+          <p>
+            This program will complement my 3+ years of ecommerce experience
+            with formal economic frameworks for better business strategy
+            formulation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" style="background: var(--light)">
+      <div class="container">
+        <h2>Key <span>Projects</span></h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Strategic Brand Revenue Growth Initiative</h3>
+              <p>2024-2025 | 5-Member Cross-Functional Team</p>
+            </div>
+            <div class="project-content">
+              <p>
+                Led integrated retail expansion strategy resulting in
+                significant revenue growth through multi-channel approach.
+              </p>
+
+              <div class="metrics">
+                <div class="metric">
+                  <h4>89%</h4>
+                  <p>Revenue Growth</p>
+                </div>
+                <div class="metric">
+                  <h4>$15.7K</h4>
+                  <p>Annual Revenue</p>
+                </div>
+                <div class="metric">
+                  <h4>8+</h4>
+                  <p>Campaigns Executed</p>
+                </div>
+                <div class="metric">
+                  <h4>5+</h4>
+                  <p>Retail Partners</p>
+                </div>
+              </div>
+
+              <h4>Key Strategies:</h4>
+              <ul>
+                <li>Retail consignment network establishment</li>
+                <li>Multi-channel market entry strategy</li>
+                <li>Integrated online/offline campaign execution</li>
+                <li>Data-driven operational optimization</li>
+              </ul>
+
+              <h4>Tools Used:</h4>
+              <p>Excel, AI Analytics Tools, Inventory Management Systems</p>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Ecommerce Platform Optimization</h3>
+              <p>Conversion Rate Improvement Project</p>
+            </div>
+            <div class="project-content">
+              <p>
+                Implemented systematic optimization strategies to enhance
+                platform performance and customer conversion.
+              </p>
+
+              <div class="metrics">
+                <div class="metric">
+                  <h4>75% → 87%</h4>
+                  <p>Conversion Rate</p>
+                </div>
+                <div class="metric">
+                  <h4><24h</h4>
+                  <p>Response Time</p>
+                </div>
+                <div class="metric">
+                  <h4>Daily</h4>
+                  <p>Monitoring System</p>
+                </div>
+              </div>
+
+              <h4>Optimization Areas:</h4>
+              <ul>
+                <li>Customer engagement & response management</li>
+                <li>Visual merchandising & store decoration</li>
+                <li>Strategic keyword analysis & SEO</li>
+                <li>Data-driven campaign adjustments</li>
+              </ul>
+
+              <h4>Results:</h4>
+              <p>
+                Established continuous improvement workflow with measurable
+                conversion growth.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Team Development & Process Standardization</h3>
+              <p>Organizational Excellence Initiative</p>
+            </div>
+            <div class="project-content">
+              <p>
+                Built structured team development program and optimized
+                operational processes for enhanced efficiency.
+              </p>
+
+              <div class="metrics">
+                <div class="metric">
+                  <h4>Monthly</h4>
+                  <p>Team Meetings</p>
+                </div>
+                <div class="metric">
+                  <h4>3+</h4>
+                  <p>Training Programs</p>
+                </div>
+                <div class="metric">
+                  <h4>100%</h4>
+                  <p>SOP Coverage</p>
+                </div>
+              </div>
+
+              <h4>Development Initiatives:</h4>
+              <ul>
+                <li>Regular performance review framework</li>
+                <li>Junior team member mentoring program</li>
+                <li>Standard Operating Procedure implementation</li>
+                <li>Third-party delivery service integration</li>
+              </ul>
+
+              <h4>Outcomes:</h4>
+              <ul>
+                <li>Improved team focus and organization</li>
+                <li>Enhanced delivery speed and tracking</li>
+                <li>Structured skill development pathways</li>
+                <li>Scalable operational framework</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section id="certification">
+      <div class="container">
+        <h2>Professional <span>Certifications</span></h2>
+        <div class="certificates-grid">
+          <!-- Certificate 1 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>AI for Business Growth</h3>
+            <p class="cert-org">Myanmar Computer Industry Association (MCIA)</p>
+            <p class="cert-date">Issued: 2025</p>
+            <div class="cert-badge">AI & Technology</div>
+            <p class="cert-desc">
+              Strategies for implementing AI tools to optimize business
+              operations and drive growth.
+            </p>
+          </div>
+
+          <!-- Certificate 2 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Workplace Ethics & Professional Responsibility</h3>
+            <p class="cert-org">Myanmar-Japan Center (MJC)</p>
+            <p class="cert-date">Issued: 2025</p>
+            <div class="cert-badge">Professional Ethics</div>
+            <p class="cert-desc">
+              Ethical standards and professional responsibility in modern
+              workplace environments.
+            </p>
+          </div>
+
+          <!-- Certificate 3 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Transform Your Business: Marketing Management</h3>
+            <p class="cert-org">Myanmar-Japan Center (MJC)</p>
+            <p class="cert-date">Issued: 2024</p>
+            <div class="cert-badge">Marketing Strategy</div>
+            <p class="cert-desc">
+              Comprehensive marketing management strategies for business
+              transformation and growth.
+            </p>
+          </div>
+
+          <!-- Certificate 4 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3>Applied Digital Marketing</h3>
+            <p class="cert-org">Myanmar Computer Industry Association (MCIA)</p>
+            <p class="cert-date">Issued: 2023</p>
+            <div class="cert-badge">Digital Marketing</div>
+            <p class="cert-desc">
+              Practical digital marketing techniques for effective online
+              campaign execution and analysis.
+            </p>
+          </div>
+
+          <!-- Certificate 5 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-microphone-alt"></i>
+            </div>
+            <h3>Public & Motivation Speaker</h3>
+            <p class="cert-org">
+              Global Development Institute Skills Development Centre
+            </p>
+            <p class="cert-date">Issued: 2021</p>
+            <div class="cert-badge">Leadership</div>
+            <p class="cert-desc">
+              Advanced public speaking and motivational techniques for effective
+              team leadership.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Get In <span>Touch</span></h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>pyaekyaw19999@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div>
+              <h4>GitHub</h4>
+              <p>github.com/pyaekyawpyaekyaw</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div>
+              <h4>LinkedIn</h4>
+              <p>linkedin.com/in/pyae-kyaw-9bb67a2a7</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p>+959-787716166</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Pyae Kyaw. All rights reserved.</p>
+        <p>Ecommerce Supervisor & Digital Marketing Strategist</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8">
+          Portfolio built with HTML, CSS, and JavaScript
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Dark Mode Functionality
+      const darkModeToggle = document.getElementById("darkModeToggle");
+      const body = document.body;
+
+      // Check saved theme from localStorage
+      const savedTheme = localStorage.getItem("portfolio-theme");
+      if (savedTheme === "dark") {
+        enableDarkMode();
+      }
+
+      // Check system preference
+      if (
+        !savedTheme &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      ) {
+        enableDarkMode();
+      }
+
+      // Toggle dark mode
+      darkModeToggle.addEventListener("click", () => {
+        if (body.classList.contains("dark-mode")) {
+          disableDarkMode();
+        } else {
+          enableDarkMode();
+        }
+      });
+
+      function enableDarkMode() {
+        body.classList.add("dark-mode");
+        darkModeToggle.classList.add("active");
+        localStorage.setItem("portfolio-theme", "dark");
+      }
+
+      function disableDarkMode() {
+        body.classList.remove("dark-mode");
+        darkModeToggle.classList.remove("active");
+        localStorage.setItem("portfolio-theme", "light");
+      }
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      // Navbar background on scroll
+      window.addEventListener("scroll", function () {
+        const nav = document.querySelector("nav");
+        if (window.scrollY > 50) {
+          nav.style.boxShadow = "0 2px 20px rgba(0,0,0,0.1)";
+        } else {
+          nav.style.boxShadow = "0 2px 10px rgba(0,0,0,0.1)";
+        }
+      });
+
+      // Add active class to current section in navigation
+      window.addEventListener("scroll", function () {
+        let current = "";
+        const sections = document.querySelectorAll("section");
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (scrollY >= sectionTop - 100) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        document.querySelectorAll(".nav-links a").forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === `#${current}`) {
+            link.classList.add("active");
+          }
+        });
+      });
+
+      // CV Download Tracking
+      document
+        .querySelector(".btn-download")
+        .addEventListener("click", function () {
+          console.log("CV downloaded - Track this event in Google Analytics");
+          // Google Analytics event tracking
+          // gtag('event', 'cv_download', {
+          //     'event_category': 'engagement',
+          //     'event_label': 'CV Download'
+          // });
+        });
+    </script>
+  </body>
+</html>
